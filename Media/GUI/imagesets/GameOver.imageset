@@ -1,0 +1,4 @@
+<Imageset autoScaled="vertical" imagefile="GameOver.png" name="GameOver" nativeHorzRes="1280" nativeVertRes="720" version="2">
+    <Image height="1148" name="Text" width="1764" xPos="0" yPos="0" />
+    <Image height="1148" name="Stones" width="1764" xPos="0" yPos="1148" />
+</Imageset>

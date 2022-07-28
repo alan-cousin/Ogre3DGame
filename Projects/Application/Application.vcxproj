@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\Application\Animation.cpp" />
+    <ClCompile Include="..\..\Src\Application\BalaComponent.cpp" />
+    <ClCompile Include="..\..\Src\Application\Camara.cpp" />
+    <ClCompile Include="..\..\Src\Application\ConsumibleComponent.cpp" />
+    <ClCompile Include="..\..\Src\Application\Entidad.cpp" />
+    <ClCompile Include="..\..\Src\Application\Estado.cpp" />
+    <ClCompile Include="..\..\Src\Application\EstadoJuego.cpp" />
+    <ClCompile Include="..\..\Src\Application\EstadoMenu.cpp" />
+    <ClCompile Include="..\..\Src\Application\Factory.cpp" />
+    <ClCompile Include="..\..\Src\Application\FactoryBalas.cpp" />
+    <ClCompile Include="..\..\Src\Application\FComponent.cpp" />
+    <ClCompile Include="..\..\Src\Application\Fisic.cpp" />
+    <ClCompile Include="..\..\Src\Application\GComponent.cpp" />
+    <ClCompile Include="..\..\Src\Application\GUI.cpp" />
+    <ClCompile Include="..\..\Src\Application\IABola.cpp" />
+    <ClCompile Include="..\..\Src\Application\InputManager.cpp" />
+    <ClCompile Include="..\..\Src\Application\Juego.cpp" />
+    <ClCompile Include="..\..\Src\Application\LifeComponent.cpp" />
+    <ClCompile Include="..\..\Src\Application\ManaComponent.cpp" />
+    <ClCompile Include="..\..\Src\Application\ProyectoBasico.cpp" />
+    <ClCompile Include="..\..\Src\Application\SoundManager.cpp" />
+    <ClCompile Include="..\..\Src\Application\Transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Src\Application\Animation.h" />
+    <ClInclude Include="..\..\Src\Application\BalaComponent.h" />
+    <ClInclude Include="..\..\Src\Application\Camara.h" />
+    <ClInclude Include="..\..\Src\Application\Componente.h" />
+    <ClInclude Include="..\..\Src\Application\ConsumibleComponent.h" />
+    <ClInclude Include="..\..\Src\Application\Entidad.h" />
+    <ClInclude Include="..\..\Src\Application\Estado.h" />
+    <ClInclude Include="..\..\Src\Application\EstadoJuego.h" />
+    <ClInclude Include="..\..\Src\Application\EstadoMenu.h" />
+    <ClInclude Include="..\..\Src\Application\Factory.h" />
+    <ClInclude Include="..\..\Src\Application\FactoryBalas.h" />
+    <ClInclude Include="..\..\Src\Application\FComponent.h" />
+    <ClInclude Include="..\..\Src\Application\Fisic.h" />
+    <ClInclude Include="..\..\Src\Application\GComponent.h" />
+    <ClInclude Include="..\..\Src\Application\GUI.h" />
+    <ClInclude Include="..\..\Src\Application\IABola.h" />
+    <ClInclude Include="..\..\Src\Application\InputManager.h" />
+    <ClInclude Include="..\..\Src\Application\Juego.h" />
+    <ClInclude Include="..\..\Src\Application\LifeComponent.h" />
+    <ClInclude Include="..\..\Src\Application\ManaComponent.h" />
+    <ClInclude Include="..\..\Src\Application\Mensaje.h" />
+    <ClInclude Include="..\..\Src\Application\SoundManager.h" />
+    <ClInclude Include="..\..\Src\Application\Transform.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3883AEBC-E2D3-40CA-9D3D-5A335C546C9C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Application</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Exes\</OutDir>
+    <TargetName>$(SolutionName)D</TargetName>
+    <IntDir>$(SolutionDir)Inter\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>$(SolutionDir)Dependencies\VLD\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies\VLD\lib\Win64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Exes\</OutDir>
+    <TargetName>$(SolutionName)</TargetName>
+    <IntDir>$(SolutionDir)Inter\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\Bullet3\include;$(SolutionDir)Dependencies\Ogre\OgreMain\include;$(SolutionDir)Dependencies\Ogre\Build\include;$(SolutionDir)Dependencies\OIS\include;$(SolutionDir)Dependencies\Fmod\inc;$(SolutionDir)Dependencies\CEGUI\include;C:\hlocal\Nueva carpeta\Proyecto_3\SCAMOK\Dependencies\FMODstudio\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>$(SolutionDir)Dependencies\VLD\include</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;fmod64_vc.lib;fmodL_vc.lib;fmodL64_vc.lib;fmodstudio_vc.lib;fmodstudio64_vc.lib;fmodstudioL_vc.lib;fmodstudioL64_vc.lib;OgreMain_d.lib;OIS_static_d.lib;Bullet3Collision_Debug.lib;Bullet3Common_Debug.lib;Bullet3Dynamics_Debug.lib;Bullet3Geometry_Debug.lib;Bullet3OpenCL_clew_Debug.lib;BulletCollision_Debug.lib;BulletDynamics_Debug.lib;BulletInverseDynamics_Debug.lib;BulletSoftBody_Debug.lib;LinearMath_Debug.lib;CEGUIBase-0_d.lib;CEGUICommonDialogs-0_d.lib;CEGUIOgreRenderer-0_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\Bullet3\lib\Debug;$(SolutionDir)Dependencies\Ogre\Build\lib\Debug;$(SolutionDir)Dependencies\OIS\lib;$(SolutionDir)Dependencies\Fmod\lib;$(SolutionDir)Dependencies\CEGUI\lib\Debug;$(SolutionDir)Dependencies\FMODstudio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\CEGUI\include;$(SolutionDir)Dependencies\Fmod\inc;$(SolutionDir)Dependencies\Ogre\OgreMain\include;$(SolutionDir)Dependencies\Ogre\Build\include;$(SolutionDir)Dependencies\OIS\include;$(SolutionDir)Dependencies\Bullet3\include;C:\hlocal\Nueva carpeta\Proyecto_3\SCAMOK\Dependencies\FMODstudio\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>$(SolutionDir)Dependencies\VLD\include;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OIS_static.lib;fmod_vc.lib;fmod64_vc.lib;fmodL_vc.lib;fmodL64_vc.lib;fmodstudio_vc.lib;fmodstudio64_vc.lib;fmodstudioL_vc.lib;fmodstudioL64_vc.lib;Bullet3Collision.lib;Bullet3Common.lib;Bullet3Dynamics.lib;Bullet3Geometry.lib;Bullet3OpenCL_clew.lib;BulletCollision.lib;BulletDynamics.lib;BulletInverseDynamics.lib;BulletSoftBody.lib;LinearMath.lib;Bullet2FileLoader.lib;CEGUIBase-0.lib;CEGUICommonDialogs-0.lib;CEGUIOgreRenderer-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\Fmod\lib;$(SolutionDir)Dependencies\Ogre\Build\lib\Release;$(SolutionDir)Dependencies\OIS\lib;$(SolutionDir)Dependencies\Bullet3\lib\Release;$(SolutionDir)Dependencies\CEGUI\lib\Release;$(SolutionDir)Dependencies\FMODstudio\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

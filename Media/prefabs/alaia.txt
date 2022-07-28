@@ -1,0 +1,19 @@
+Animation
+Alaia
+5
+Jump
+AirUp
+AirDown
+Shoot
+Run
+Logico
+Transform
+Logico
+LifeComponent
+Logico
+ManaComponent
+Logico
+ConsumibleComponent
+CFisico
+0 0 0 0 2 100
+---

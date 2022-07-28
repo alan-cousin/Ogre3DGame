@@ -1,0 +1,329 @@
+
+// Piel genrated by blender2ogre 0.6.0
+
+material Piel 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Piel
+        {
+           // ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture Piel.tga
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// Medias genrated by blender2ogre 0.6.0
+
+material Medias 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Medias
+        {
+
+             ambient 0.704 0.051 0.093 1.0
+            diffuse 0.704 0.051 0.093 1.0
+            emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Media Claro.002 genrated by blender2ogre 0.6.0
+
+material MediaClaro.002 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass MediaClaro.002
+        {
+
+            ambient 0.848 0.427 0.553 1.0
+            diffuse 0.848 0.427 0.553 1.0
+            emissive 0 0 0 1             
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Camiseta genrated by blender2ogre 0.6.0
+
+material Camiseta 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Camiseta
+        {
+            
+            ambient 0.026 0.004 0.006 1.0
+            diffuse 0.026 0.004 0.006 1.0
+            emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Eyes genrated by blender2ogre 0.6.0
+
+material Eyes 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Eyes
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture Eyes.tga
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// Pulsera genrated by blender2ogre 0.6.0
+
+material Pulsera 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Pulsera
+        {
+
+            ambient 0.485 0.036 0.070 1.0
+            diffuse 0.485 0.036 0.070 1.0
+            emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Pelo.001 genrated by blender2ogre 0.6.0
+
+material Pelo.001 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Pelo.001
+        {
+           ambient 0.988 0.0 0.365 1.0
+            diffuse 0.988 0.0 0.365 1.0
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Falda genrated by blender2ogre 0.6.0
+
+material Falda 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Falda
+        {
+
+            ambient 0.045 0.007 0.024 1.0
+            diffuse 0.045 0.007 0.024 1.0
+            emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Botas genrated by blender2ogre 0.6.0
+
+material Botas 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Botas
+        {
+            ambient 0.094 0.072 0.064 1.0
+            diffuse 0.094 0.072 0.064 1.0
+            emissive 0 0 0 1
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

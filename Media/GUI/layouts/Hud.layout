@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1042},{0,720}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="OgreTray/ProgressBar" name="Life" >
+            <Property name="Area" value="{{0,121},{0,42},{0,295},{0,74}}" />
+            <Property name="StepSize" value="0.01" />
+        </Window>
+        <Window type="OgreTray/ProgressBar" name="Power" >
+            <Property name="Area" value="{{0,121},{0,74},{0,295},{0,106}}" />
+            <Property name="StepSize" value="0.01" />
+            <Property name="CurrentProgress" value="1" />
+        </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,24},{0,11},{0,323},{0,140}}" />
+            <Property name="Image" value="HUD/HUD" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="Simple" >
+            <Property name="Area" value="{{0,802},{0,513},{0,986},{0,694}}" />
+            <Property name="Image" value="HUD2/1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="Lluvia" >
+            <Property name="Area" value="{{0,802},{0,513},{0,986},{0,694}}" />
+            <Property name="Image" value="HUD2/2" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="TaharezLook/StaticImage" name="StaticImage" >
+        <Property name="Area" value="{{0,-0},{0,0},{0,1030.5},{0,767}}" />
+        <Property name="Alpha" value="0.7" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="FrameEnabled" value="True" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Property name="VerticalAlignment" value="Centre" />
+        <Property name="HorizontalAlignment" value="Centre" />
+        <Window type="TaharezLook/Button" name="Salir" >
+            <Property name="Area" value="{{-0.0193986,252},{-0.00555556,287},{-0.0193986,417},{-0.00555556,334}}" />
+            <Property name="Text" value="SALIR" />
+            <Property name="InheritsAlpha" value="False" />
+        </Window>
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0.128546,162},{0.308065,131},{0.440603,290},{0.593548,259}}" />
+            <Property name="Image" value="GameOver/Stones" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="InheritsAlpha" value="False" />
+        </Window>
+        <Window type="Generic/Image" name="Image2" >
+            <Property name="Area" value="{{0.378723,-116},{0.0859319,-48},{0.378723,379},{0.0859319,210}}" />
+            <Property name="Image" value="GameOver/Text" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="InheritsAlpha" value="False" />
+        </Window>
+        <Window type="TaharezLook/Button" name="Reiniciar" >
+            <Property name="Area" value="{{-0.085354,739},{0.00277778,283},{-0.085354,904},{0.00277778,330}}" />
+            <Property name="Text" value="REINICIAR" />
+            <Property name="InheritsAlpha" value="False" />
+        </Window>
+    </Window>
+</GUILayout>

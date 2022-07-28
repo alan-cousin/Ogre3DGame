@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Image" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1028},{0,768}}" />
+        <Property name="Image" value="Creditos/BG" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/ImageButton" name="Volver" >
+            <Property name="Area" value="{{0,39},{0,597},{0,202},{0,655}}" />
+            <Property name="Font" value="DejaVuSans-10-NoScale" />
+            <Property name="Text" value="VOLVER" />
+            <Property name="HoverImage" value="mPpal/button2" />
+            <Property name="NormalImage" value="mPpal/button1" />
+            <Property name="PushedImage" value="mPpal/button1" />
+            <Window type="TaharezLook/StaticText" name="StaticText" >
+                <Property name="Area" value="{{0,36},{0,18},{0,128},{0,42}}" />
+                <Property name="Font" value="Jura-18" />
+                <Property name="Text" value="VOLVER" />
+                <Property name="MaxSize" value="{{10,0},{10,0}}" />
+                <Property name="FrameEnabled" value="False" />
+                <Property name="DragDropTarget" value="False" />
+                <Property name="HorzFormatting" value="CentreAligned" />
+                <Property name="ClippedByParent" value="False" />
+                <Property name="BackgroundEnabled" value="False" />
+                <Property name="HorzScrollPageSize" value="92" />
+                <Property name="RiseOnClickEnabled" value="False" />
+                <Property name="VertScrollPageSize" value="24" />
+                <Property name="HorzScrollDocumentSize" value="84" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+                <Property name="VertScrollDocumentSize" value="24.6328" />
+                <Property name="MousePassThroughEnabled" value="True" />
+                <Property name="MouseInputPropagationEnabled" value="True" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="MouseInputPropagationEnabled" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="True" />
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="MouseInputPropagationEnabled" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

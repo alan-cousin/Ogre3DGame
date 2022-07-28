@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="TaharezLook/StaticImage" name="StaticImage" >
+        <Property name="Area" value="{{0,-2},{0,-127},{0,587},{0,333}}" />
+        <Property name="Alpha" value="0.3" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="FrameEnabled" value="True" />
+        <Property name="InheritsAlpha" value="False" />
+        <Property name="DragDropTarget" value="False" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Property name="VerticalAlignment" value="Bottom" />
+        <Property name="HorizontalAlignment" value="Centre" />
+        <Window type="TaharezLook/Button" name="Opciones" >
+            <Property name="Area" value="{{0,0},{0,-14},{0,214},{0,52}}" />
+            <Property name="Text" value="OPCIONES" />
+            <Property name="InheritsAlpha" value="False" />
+            <Property name="VerticalAlignment" value="Centre" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="TaharezLook/Button" name="Salir" >
+            <Property name="Area" value="{{0,187},{0,125},{0,401},{0,191}}" />
+            <Property name="Text" value="SALIR" />
+            <Property name="InheritsAlpha" value="False" />
+            <Property name="VerticalAlignment" value="Centre" />
+        </Window>
+        <Window type="TaharezLook/Button" name="Reanudar" >
+            <Property name="Area" value="{{0,186},{0,51},{0,400},{0,117}}" />
+            <Property name="Text" value="REANUDAR" />
+            <Property name="InheritsAlpha" value="False" />
+        </Window>
+    </Window>
+</GUILayout>

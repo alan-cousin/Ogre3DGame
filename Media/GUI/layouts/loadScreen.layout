@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="WindowsLook/StaticImage" name="StaticImage" >
+        <Property name="Area" value="{{0,0},{0,0},{0,1385},{0,808}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="FrameEnabled" value="True" />
+        <Property name="BackgroundColours" value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+        <Property name="BackgroundEnabled" value="True" />
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,379},{0,310},{0,650},{0,438}}" />
+            <Property name="Image" value="Loading/Loading" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,4 @@
+<Imageset autoScaled="vertical" imagefile="Hud2.png" name="HUD2" nativeHorzRes="1280" nativeVertRes="720" version="2">
+    <Image height="436" name="1" width="460" xPos="0" yPos="0" />
+    <Image height="436" name="2" width="460" xPos="460" yPos="0" />
+</Imageset>

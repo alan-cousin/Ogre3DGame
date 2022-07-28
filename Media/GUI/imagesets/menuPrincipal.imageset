@@ -1,0 +1,7 @@
+<Imageset autoScaled="vertical" imagefile="menuPrincipal.png" name="mPpal" nativeHorzRes="1280" nativeVertRes="720" version="2">
+    <Image height="752" name="bg" width="1052" xPos="0" yPos="0" />
+    <Image height="376" name="logoB1" width="386" xPos="1052" yPos="0" />
+    <Image height="376" name="logoB2" width="386" xPos="1052" yPos="376" />
+    <Image height="376" name="button1" width="112" xPos="1438" yPos="0" />
+    <Image height="376" name="button2" width="112" xPos="1438" yPos="376" />
+</Imageset>

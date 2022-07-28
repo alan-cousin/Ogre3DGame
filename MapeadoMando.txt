@@ -1,0 +1,23 @@
+A-> 0
+B->1
+X->2
+Y->3
+L1->4
+R1->5
+Select->6
+Start-> 7
+L3->8
+R3->9
+
+Flechas:
+-Derecha: 256
+-Izquierda: 4096
+-Arriba: 1
+-Abajo: 16
+
+
+---------------------------------------------------------------
+Instrucciones para Exportar con Ogre:
+
+Poner el punto en el centro del objeto
+para escalar, usar .\OgreMeshMagick.exe transform -scale=60/20/1 ./nombre.mesh

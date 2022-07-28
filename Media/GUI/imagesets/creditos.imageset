@@ -1,0 +1,3 @@
+<Imageset autoScaled="vertical" imagefile="creditos.png" name="Creditos" nativeHorzRes="1280" nativeVertRes="720" version="2">
+    <Image height="1500" name="BG" width="2100" xPos="0" yPos="0" />
+</Imageset>
